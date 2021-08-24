@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bokor&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgb(119, 115, 115);
+    scroll-behavior: smooth;
+}
+p{
+    text-indent: 50px;
+    font-family: Khmer OS Battambang;
+    text-align: justify;
+    
+}
+
+.bar{
+    background-color: rgb(44, 43, 44);
+    font-family: 'Dangrek', cursive;
+    color: white;
+    display: flex;
+    padding: 3px;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+    justify-content: space-between;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
+}
+.main-menu{
+    display: flex;
+    margin-left: 100px;
+}
+.main-menu h3{
+    font-size: 16px;
+    color: rgb(20, 174, 194);
+}
+.main-menu img{
+    width: 50px;
+    margin: -5px -8px -12px;
+}
+
+.main-menu ul{
+    font-size: 16px;
+    display: flex;
+    list-style-type: none;
+    padding-left: 50px;
+}
+.main-menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}
+.main-menu li a:hover{
+    background-color: rgb(9, 188, 201);
+    color: rgb(0, 0, 0);
+    padding-top: 5px;
+    padding-bottom: 4px;
+}
+.main-menu a{
+    text-decoration: none;
+    color: white;
+}
+.search{
+    margin-right: 100px;
+}
+.search a{
+    color: white;
+    text-decoration: none;
+}
+.search input{
+    font-family: 'Preahvihear', cursive;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 3px 0 0 15px;
+    width: 150px;
+}
+a.search:hover{
+    color: rgb(0, 255, 64);
+}
+
+.workspace{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-evenly;
+    border-spacing: 10px;
+}
+
+/* text announcement */
+.announcement{
+   background-color: white;
+   width: 780px;
+   padding: 50px;
+}
+.announcement h2{
+    font-family: 'Bokor', cursive;
+    text-decoration: underline;
+    text-align: center;
+}
+.announcement h3{
+    font-family: 'Bokor', cursive;
+    text-align: left;
+}
+.announcement img{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 60%;
+}
+
+/* Other topic */
+.others{
+    background-color: white;
+    font-family: 'Dangrek', cursive;
+    font-size: 13px;
+    width: 300px;
+    height: fit-content;
+    padding: 30px;
+}
+.others h3{
+    font-weight: 100;
+    text-align: center;
+}
+.others img{
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    position: relative;
+}
+.others a{
+    text-decoration: none;
+}
+.others a p{
+    text-indent: 0;
+    color: rgb(26, 38, 194);
+    font-family: Khmer OS Battambang;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 50px;
+    margin-top: -40px;
+}
+.others a p:hover{
+    color: rgb(196, 28, 28);
+    text-decoration: underline rgb(71, 4, 255);
+}
+
+/* -------------------------footer------------------  */
+.footer{
+    background-color: rgb(44, 43, 44);
+    margin-top: 50px;
+    border-top: 3px solid rgb(20, 174, 194);
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    margin-left: 200px;
+}
+.copyright a img{
+    width: 60px;
+    display: block;
+    margin: 15px auto 10px auto;
+}  
+.copyright p{
+    color: white; 
+    font-size: 14px; 
+    text-indent: unset;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.social-media h3{
+    font-family: 'Dangrek', cursive;
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.social-media{
+    text-align: center;
+    line-height: 40px;
+    margin-right: 200px;
+}
+.social-media a{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 20px;
+}
+.social-media a:hover{
+    color: rgb(2, 175, 255);
+}
